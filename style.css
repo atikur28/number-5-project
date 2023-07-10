@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-/* Navigation Section */
+/* Navigation Section Starts */
 /* Navigation Bar Starts */
 li{
     list-style: none;
@@ -37,4 +37,43 @@ li{
 }
 /* Navigation Bar Ends */
 /* Banner Section Starts */
+
+.banner{
+    background-image: url("./image/background.jpg"), linear-gradient(rgba(0, 0, 0,0.2), rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 90vh;
+    padding: 350px 0px;
+}
+.banner-header{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+.red{
+    color: red;
+}
+.banner-para{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.first-btn{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 22px;
+}
+.second-btn{
+    background-color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 22px;
+}
+/* Banner Section Ends */
+/* Navigation Section Ends */
 
