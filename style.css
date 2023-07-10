@@ -4,9 +4,7 @@
 }
 /* Navigation Section Starts */
 /* Navigation Bar Starts */
-li{
-    list-style: none;
-}
+
 .logo{
     display: flex;
     align-items: center;
@@ -34,6 +32,7 @@ li{
     font-size: 20px;
     padding-right: 40px;
     cursor: pointer;
+    list-style: none;
 }
 /* Navigation Bar Ends */
 /* Banner Section Starts */
@@ -85,5 +84,93 @@ li{
 }
 /* Banner Section Ends */
 /* Navigation Section Ends */
+/* Service Section Starts */
+.services{
+    height: 100vh;
+    background-image: url("./image/footer-bg.png"), 
+    linear-gradient(180deg, rgba(1,1,1,0.99), rgba(1,1,1,0.89));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    padding: 0px 200px;
+}
+.service-btn{
+    color: gray;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 13px 28px;
+}
+.service-header{
+    color: rgb(196, 193, 193);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.service-para{
+    color: rgb(196, 193, 193);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.box-img{
+    width: 100px;
+}
+.box{
+    width: 280px;
+    height: 230px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 80px;
+    box-shadow: 3px 3px 5px gray;
+}
+.first-two{
+    display: flex;
+    gap: 20px;
+}
+.second-two{
+    display: flex;
+    gap: 20px;
+    padding-top: 18px;
+}
+.author-img{
+    width: 60px;
+    border-radius: 50px;
+    padding-right: 10px;
+}
+.author-primary{
+    color: rgb(196, 193, 193);
+    font-weight: bold;
+}
+.more-detail{
+    color: red;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    padding: 13px 28px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 80px;
+}
+.listing{
+    padding: 20px;
+}
+.author{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 
 
