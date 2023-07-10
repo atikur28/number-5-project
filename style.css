@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Section */
+/* Navigation Bar Starts */
+li{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-msg{
+    font-size: 20px;
+    color: aqua;
+}
+.logo-img{
+    width: 230px;
+}
+.nav-section{
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 300px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.nav-menu{
+    font-size: 20px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+/* Navigation Bar Ends */
+/* Banner Section Starts */
+
