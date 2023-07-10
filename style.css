@@ -209,4 +209,18 @@
 }
 /* Appointment Section Ends */
 /* Blog Section Starts */
+.blog-header{
+    font-size: 60px;
+    font-weight: bold;
+}
+.blog-para{
+    font-size: 23px;
+}
+.blog-info{
+    text-align: center;
+    padding-top: 35px;
+}
+.blog-detail{
+    text-align: left;
+}
 
