@@ -223,4 +223,30 @@
 .blog-detail{
     text-align: left;
 }
+.card-img{
+    width: 100%;
+}
+.card-header{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.card-para{
+    font-size: 18px;
+}
+.card{
+    width: 320px;
+    height: 400px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 70px auto;
+}
+/* Blog Section Ends */
+/* Footer Section Starts */
+
 
